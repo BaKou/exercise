@@ -8,9 +8,9 @@ describe('NumberToRomanComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NumberToRomanComponent ]
+      declarations: [NumberToRomanComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
@@ -22,4 +22,5 @@ describe('NumberToRomanComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });

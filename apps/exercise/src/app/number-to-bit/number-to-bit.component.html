@@ -1,1 +1,3 @@
-<p>number-to-bit works!</p>
+<input [(ngModel)]="numberToConvert" type="number" (ngModelChange)="convert($event)" />
+
+<p> Le nombre en bit est : {{ convertedNumber }}</p>

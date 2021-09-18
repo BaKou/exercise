@@ -1,1 +1,3 @@
-<p>number-to-roman works!</p>
+<input [(ngModel)]="numberToConvert" type="number" (ngModelChange)="convert($event)" />
+
+<p> Le nombre en chiffre roman est : {{ convertedNumber }}</p>

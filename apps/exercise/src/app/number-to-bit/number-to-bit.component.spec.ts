@@ -8,9 +8,9 @@ describe('NumberToBitComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NumberToBitComponent ]
+      declarations: [NumberToBitComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
@@ -22,4 +22,6 @@ describe('NumberToBitComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+
 });
